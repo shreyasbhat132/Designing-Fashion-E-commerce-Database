@@ -41,4 +41,4 @@ The normalized tables are as follows:
 * Payment (payment_id(PK), acc_id(FK), payment_method, card_no, cvv, card_type, exp_date)
 * Transaction (transaction_id(PK), payment_id(FK), order_id(FK), closed_at, payment_status)
 
-Once the data was ready, we exported the datasets to MySQL to test data retrieval through SQL. Once we found that the dataset was consistent with the queries passed, and the database was responding as per our expectation, we switched to mongodb to test the scalability of the model for big data. 
+Once the data was ready, we exported the datasets to MySQL to test data retrieval through SQL. Once we found that the dataset was consistent with the queries passed, and the database was responding as per our expectation, we switched to mongodb to test the scalability of the model for big data. As I love working with jupyter notebooks :), I also demonstrated how one can connect their python notebook to a MySQL database to perform queries, extract tables as dataframe objects and perform further exploratory analysis and subsequent data modeling.   
